@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="Logo">
+        <img src="/images/logo.jpeg" />
+        <h1>AI Chronicles</h1>
+      </div>
+      <nav>
+        <div class="burger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="/html/articles.html">Articles</a></li>
+          <li><a href="/html/article.html">AI_Article</a></li>
+          <li><a href="/html/about.html">About</a></li>
+          <li><a href="/html/contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="page4">
+      <h1>About Us</h1>
+      <p>
+        At [Website Name], we aim to provide insightful and inspiring content on
+        [briefly describe the topic of the article or main focus of your
+        website]. Our mission is to offer valuable information that meets the
+        needs of our readers in [define the field or specialty, such as
+        education, technology, health, business, etc.]. We believe in delivering
+        trustworthy and accurate information that empowers users to enhance
+        their knowledge and achieve their goals. Our goal is to [state your
+        primary goal: offer high-quality content, enable readers to make
+        informed decisions, or any other key goal]. We are committed to
+        continuously improving our website to ensure the best experience for our
+        visitors. Join us at [Website Name] and become part of a community that
+        values [mention core values such as continuous learning, innovation,
+        excellence, etc.]. Feel free to reach out if you have any questions or
+        feedback.
+      </p>
+    </section>
+  </body>
+  <script src="/script/script.js">
+  </script>
+</html>

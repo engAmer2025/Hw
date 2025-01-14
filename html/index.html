@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="Logo">
+        <img src="/images/logo.jpeg" />
+        <h1>AI Chronicles</h1>
+      </div>
+      <nav>
+        <div class="burger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="/html/articles.html">Articles</a></li>
+          <li><a href="/html/article.html">AI_Article</a></li>
+          <li><a href="/html/about.html">About</a></li>
+          <li><a href="/html/contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="page1">
+      <div class="articles">
+        <div class="card">
+          <p>
+            AI Enhances Satellite Navigation SandboxAQ, a startup from
+            Alphabet's labs, is developing AQNav, a technology that uses AI and
+            quantum magnetometers to improve satellite navigation by reading
+            Earth's magnetic field. This innovation aims to provide safer
+            navigation and serve as an alternative during GPS outages.
+          </p>
+          <a
+            href="https://www.wired.com/story/google-startup-wants-to-revolutionize-satellite-navigation?utm_source=chatgpt.com"
+          >
+            Read more</a
+          >
+        </div>
+        <div class="card">
+          <p>
+            Nvidia's Personal AI Supercomputer Nvidia has introduced Digits, a
+            $3,000 personal AI supercomputer designed for researchers and
+            hobbyists. This compact device can run large AI models, facilitating
+            advanced AI experimentation outside traditional data centers.
+          </p>
+          <a
+            href="https://www.wired.com/story/nvidia-personal-supercomputer-ces?utm_source=chatgpt.com"
+            >Read more</a
+          >
+        </div>
+        <div class="card">
+          <p>
+            AI's Role in Physical Intelligence AI is progressing beyond digital
+            realms into the physical world, achieving "physical intelligence."
+            This development enables machines to understand and navigate dynamic
+            environments, bridging the gap between digital instructions and
+            physical execution.
+          </p>
+          <a
+            href="https://www.wired.com/story/ai-physical-intelligence-machine-learning?utm_source=chatgpt.com"
+            >Read more</a
+          >
+        </div>
+      </div>
+      <div class="images">
+        <div class="image-container" id="imageContainer">
+          <img src="/images/image1 (2).webp" alt="Image 1" />
+          <img src="/images/image2 (2).webp" alt="Image 2" />
+          <img src="/images/image3.webp" alt="Image 3" />
+        </div>
+        <div class="controls">
+          <!-- تعديل: زر الانتقال للصورة السابقة -->
+          <button class="bun1" onclick="prevImage()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#FFFFFF"
+            >
+              <path
+                d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"
+              />
+            </svg>
+          </button>
+          <!-- تعديل: زر الانتقال للصورة التالية -->
+          <button class="bun2" onclick="nextImage()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#FFFFFF"
+            >
+              <path
+                d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <footer>
+        <h3>Copyright
+        </h3>
+        <p>
+        call me<b> : 098466789 </b
+          ><a href="#"
+            ><i class="fas fa-phone" style="color: rgb(255, 173, 254)"></i
+          ></a>
+        </p>
+        <p>
+          <b> en_nouralhuda@ </b
+          ><a href="#"
+            ><i class="fab fa-instagram" style="color: rgb(255, 173, 254)"></i
+          ></a>
+        </p>
+      </footer>
+    </section>
+  </body>
+  <script src="/script/script.js">
+  </script>
+</html>
